@@ -1,0 +1,162 @@
+body {
+  background-color: #0e0c0c;
+  color: #f3f3f3;
+
+  font-family: "Fraunces", serif;
+  font-size: 16px;
+  font-weight: normal;
+  /* 
+  Same as above
+  font: normal Arial, Helvetica, sans-serif;
+
+  line-height: 1.6em;
+  margin: 0; */
+}
+
+#main-header {
+  text-align: center;
+  font-size: 100px;
+  margin-top: 0%;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.navbar {
+  text-align: center;
+}
+
+h1 {
+  display: inline;
+}
+
+h2 {
+  display: inline;
+}
+
+.line {
+  margin-top: 20px;
+  margin-left: 20px;
+  float: left;
+}
+
+#slogan {
+  text-align: center;
+  margin-top: 0%;
+}
+
+.centerr {
+  text-align: center;
+}
+
+.color1:hover {
+  color: rgb(206, 14, 180);
+}
+
+.color2:hover {
+  color: red;
+}
+
+.color3:hover {
+  color: rgb(230, 215, 16);
+}
+
+.color4:hover {
+  color: rgb(187, 44, 216);
+}
+
+.color5:hover {
+  color: rgb(24, 108, 233);
+}
+
+.color6:hover {
+  color: rgb(67, 179, 151);
+}
+
+.color7:hover {
+  color: rgb(247, 186, 20);
+}
+
+.color8:hover {
+  color: rgb(235, 33, 191);
+}
+
+.color9:hover {
+  color: rgb(80, 106, 221);
+}
+
+.color10:hover {
+  color: rgb(226, 223, 33);
+}
+
+.clr {
+  clear: both;
+}
+.menu {
+  transition: 0.3s ease-in;
+  padding: 10px 20px;
+  border-radius: 50px;
+  position: relative;
+}
+.menu::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.3s;
+  background-color: white;
+  border-radius: 50px;
+  z-index: -1;
+}
+.menu:hover::before {
+  height: 100%;
+}
+.menu:hover {
+  color: black !important;
+  border: 2px #ccc solid;
+  border-color: white;
+}
+
+a {
+  text-decoration: none !important;
+  color: #f3f3f3 !important;
+}
+
+#navbar ul {
+  padding: 0;
+  list-style: none;
+}
+
+#navbar li {
+  display: inline;
+}
+
+#navbar a {
+  padding-right: 240px !important;
+}
+
+#main {
+  float: left;
+  width: 70%;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+#sidebar {
+  float: right;
+  width: 30%;
+  background: #f3f3f3;
+  color: black;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#main-footer {
+  text-align: center;
+}
